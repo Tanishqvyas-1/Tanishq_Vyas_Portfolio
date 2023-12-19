@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Tanishq Vyas Portfolio-Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;500&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+      }
+      .nav-left {
+        font-size: 1.8rem;
+      }
+      .skills .vertical {
+        width: 84vw;
+        background: #9c97f1;
+        height: 2px;
+      }
+      .skills {
+        padding: 20px;
+      }
+      .skills h2 {
+        color: #9c97f1;
+      }
+      .lines {
+        display: flex;
+        animation: slideInLeft 1s ease-out;
+      }
+      .line {
+        width: 2px;
+        height: 100px;
+        background: #9c97f1;
+        margin: 0 100px;
+      }
+      .line img {
+        width: 50px;
+        margin-top: 110px;
+      }
+      .content {
+        padding: 100px;
+        width: 70vw;
+        margin: auto;
+      }
+      .content h3 {
+        color: #9c97f1;
+      }
+      @keyframes slideInLeft {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        /* Styles for screens up to 768px wide (typical phone size) */
+
+        nav {
+          height: auto;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        nav ul {
+          flex-direction: column;
+          text-align: center;
+          width: 100%;
+        }
+
+        nav ul li {
+          margin: 10px 0;
+        }
+
+        .firstsection {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .firstsection > div {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        .rightsection {
+          width: 100%;
+          text-align: center;
+        }
+
+        .rightsection img {
+          width: 70%;
+        }
+
+        main hr {
+          margin: 20px 0;
+        }
+
+        .secondsection .left,
+        .secondsection .right {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        .footer {
+          flex-direction: column;
+          text-align: center;
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">Tanishq's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="skills">
+      <h2>Skills I have worked on</h2>
+      <div class="vertical"></div>
+      <div class="lines">
+        <div class="line">
+          <img src="html-5.png" alt="" />
+          <div class="vertical-text">HTML</div>
+        </div>
+
+        <div class="line">
+          <img src="css.png" alt="" />
+          <div class="vertical-text">CSS</div>
+        </div>
+        <div class="line">
+          <img src="js.png" alt="" />
+          <div class="vertical-text">JavaScript</div>
+        </div>
+        <div class="line">
+          <img src="react.png" alt="" />
+          <div class="vertical-text">ReactJS</div>
+        </div>
+        <div class="line">
+          <img src="node1.png" alt="" />
+          <div class="vertical-text">NodeJS</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

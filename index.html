@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanishq Vyas portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;500&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+      }
+      .left {
+        font-size: 1.8rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 23px o;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 2rem;
+        margin: 90px 0;
+      }
+      .rightsection {
+        width: 30px;
+      }
+      .rightsection img {
+        width: 90%;
+        border-radius: 50%;
+        padding: 20px;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 100vh;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+        color: #9c97f1;
+      }
+      .text-gray {
+        color: gray;
+      }
+      .secondsection .left {
+        margin: 20px 0;
+        width: 50vw;
+      }
+      .secondsection .left h2 {
+        font-size: 1.6rem;
+      }
+      .secondsection .left h3 {
+        font-size: 1rem;
+        padding: 10px;
+      }
+      .secondsection .box {
+        display: flex;
+      }
+      .secondsection .right {
+        padding: 30px;
+        margin-left: 50px;
+        width: 50vw;
+      }
+      .secondsection .right h3 {
+        font-style: italic;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      footer .footer-rights {
+        color: gray;
+        text-align: center;
+        padding: 12px;
+      }
+      .leftsection .btn {
+        padding: 6px;
+        background-color: rgb(18, 18, 62);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+      }
+      .leftsection .btn a {
+        text-decoration: none;
+        color: white;
+      }
+      .footer ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      @media only screen and (max-width: 768px) {
+        /* Styles for screens up to 768px wide (typical phone size) */
+
+        nav {
+          height: auto;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        nav ul {
+          flex-direction: column;
+          text-align: center;
+          width: 100%;
+        }
+
+        nav ul li {
+          margin: 10px 0;
+        }
+
+        .firstsection {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .firstsection > div {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        .rightsection {
+          width: 100%;
+          text-align: center;
+        }
+
+        .rightsection img {
+          width: 70%;
+        }
+
+        main hr {
+          margin: 20px 0;
+        }
+
+        .secondsection .left,
+        .secondsection .right {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        .footer {
+          flex-direction: column;
+          text-align: center;
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Tanishq's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hey, I am <span class="purple">Tanishq</span>
+          <div>and I am a Passionate Web developer</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">
+              <a
+                href="https://drive.google.com/file/d/1wW4d1Y9QZrSyTEMm6_95qtc9cax0P8Il/view?usp=drive_link"
+                >See Resume</a
+              >
+            </button>
+            <button class="btn">
+              <a href="https://github.com/Tanishqvyas-1">Visit GitHub</a>
+            </button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="profilepicture.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="left">
+            <h2>Data Science Intern (Aug 2022- Feb 2023)</h2>
+            <h3>
+              ●Engaged with a dataset of3million rows and evaluated10,000 rows
+              for sentence similarity.
+            </h3>
+            <h3>
+              ●Validated Data quality by achieving an 84% accuracy in grouping
+              similar content using clustering algorithms
+            </h3>
+            <h3>
+              ●Improved model accuracy by 12% with agglomerative clustering
+              approach.
+            </h3>
+            <h3>
+              ●Developed K-means, agglomerative, and birch clustering models
+              with 300 clustersto enhance precision. Presented four models and
+              three metrics; Agglomerative scored 0.36, outperforming others.
+            </h3>
+            <h3>
+              ●Tech used- Deep learning, Data visualization, Python, clustering,
+              Data Analysis
+            </h3>
+          </div>
+          <div class="right">
+            <h3>-Indian Institute of Technology, Indore</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">Tanishq's Developer Portfolio</div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        copyright&copy; www.tanishqsportfolio.com | All Rights Reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Software Engineer",
+          "Front end Developer",
+          "Back end Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

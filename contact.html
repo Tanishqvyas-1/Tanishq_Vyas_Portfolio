@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanishq Vyas Portfolio- Contact</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;500&family=Rubik:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      background-color: rgb(18, 18, 62);
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover {
+      color: rgb(153, 153, 226);
+    }
+    .left {
+      font-size: 1.8rem;
+    }
+    .contact {
+      padding: 20px;
+      animation: slideInLeft 1s ease-out;
+    }
+    .contact h2 {
+      margin-left: 10px;
+      color: #9c97f1;
+    }
+    .contact h3 {
+      padding: 10px;
+    }
+    .email {
+      display: flex;
+    }
+    .email img {
+      width: 30px;
+      height: 30px;
+      padding: 10px;
+    }
+    .phone {
+      display: flex;
+    }
+    .phone2 {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background-color: white;
+    }
+    .phone img {
+      width: 27px;
+      height: 27px;
+      padding: 7px;
+    }
+    .linkedin {
+      display: flex;
+    }
+    .linkedin img {
+      width: 27px;
+      height: 27px;
+      padding: 7px;
+    }
+    .linkedin button a {
+      text-decoration: none;
+      background-color: rgb(18, 18, 62);
+      color: white;
+      border: 1px solid white;
+      border-radius: 6px;
+      padding: 6px;
+      margin-left: 20px;
+    }
+    .linkedin button {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer h1 {
+      color: #9c97f1;
+      text-align: center;
+      margin-right: 100px;
+      margin-top: 50px;
+      animation: slideInLeft 1s ease-out;
+    }
+    @keyframes slideInLeft {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      nav {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+
+      .firstsection {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .firstsection > div {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .rightsection {
+        width: 100%;
+        text-align: center;
+      }
+
+      .rightsection img {
+        width: 70%;
+      }
+
+      main hr {
+        margin: 20px 0;
+      }
+
+      .secondsection .left,
+      .secondsection .right {
+        width: 100%;
+        margin-left: 0;
+      }
+
+      .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Tanishq's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="contact">
+      <h2>Let's Connect</h2>
+      <h3>
+        I am open to exploring new career opportunities and would love to
+        connect with you. Feel free to reach out via-
+      </h3>
+      <div class="email">
+        <h3>Email- tanishqvofficial@gmail.com</h3>
+        <img src="gmail.png" alt="" />
+      </div>
+
+      <div class="phone">
+        <h3>Phone- +91 6266481278</h3>
+        <div class="phone2">
+          <img src="phone.png" alt="" />
+        </div>
+      </div>
+      <div class="linkedin">
+        <button>
+          <a href="https://www.linkedin.com/in/tanishq-vyas-74a260220/"
+            >Visit Linkedin</a
+          >
+        </button>
+        <img src="linkedin.png" alt="" />
+      </div>
+    </div>
+    <footer class="footer">
+      <h1>Have a Nice Day!</h1>
+    </footer>
+  </body>
+</html>

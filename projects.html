@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanishq Vyas Portfolio- Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@200;500&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+      }
+      .nav-left {
+        font-size: 1.8rem;
+      }
+      .box h2 {
+        color: #9c97f1;
+      }
+      .box {
+        padding: 20px;
+        display: flex;
+        animation: slideInLeft 1s ease-out;
+      }
+      .project1 {
+        width: 60vw;
+      }
+      .btn a {
+        text-decoration: none;
+        padding: 6px;
+        margin-left: 20px;
+        background-color: rgb(18, 18, 62);
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+      }
+      .btn {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        animation: slideInLeft 1s ease-out;
+      }
+      .image img {
+        width: 400px;
+        border-radius: 20px;
+        margin: 10px 10px;
+      }
+      .box2 {
+        display: flex;
+        padding: 20px;
+        margin-top: 20px;
+        animation: slideInLeft 1s ease-out;
+      }
+      .box2 h2 {
+        color: #9c97f1;
+      }
+      .project2 {
+        width: 60vw;
+      }
+      @keyframes slideInLeft {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        /* Styles for screens up to 768px wide (typical phone size) */
+
+        nav {
+          height: auto;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        nav ul {
+          flex-direction: column;
+          text-align: center;
+          width: 100%;
+        }
+
+        nav ul li {
+          margin: 10px 0;
+        }
+
+        .firstsection {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .firstsection > div {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        .rightsection {
+          width: 100%;
+          text-align: center;
+        }
+
+        .rightsection img {
+          width: 70%;
+        }
+
+        main hr {
+          margin: 20px 0;
+        }
+
+        .secondsection .left,
+        .secondsection .right {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        .footer {
+          flex-direction: column;
+          text-align: center;
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">Tanishq's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="box">
+      <div class="project1">
+        <h2>Tic Tac Toe</h2>
+        <h4>
+          ●Developed a responsive Tic Tac Toe game website using HTML, CSS, and
+          JavaScript.
+        </h4>
+        <h4>
+          ●Verified a responsive design, leading to a 30% increase in mobile
+          user engagement
+        </h4>
+        <h4>
+          ●Implemented smooth animations to contribute 20% improvement in the
+          overall gaming experience
+        </h4>
+        <h4>
+          ● Utilized CSS media queries for styling on both desktop and mobile
+          devices, resulting in a 25% increase in user experience
+        </h4>
+        <h4>● Tech Used- HTML, CSS, JavaScript</h4>
+      </div>
+      <div class="image">
+        <img src="project1.png" alt="" />
+      </div>
+    </div>
+    <button class="btn">
+      <a href="/Tic Tac Toe/index.html">See Project</a>
+    </button>
+    <div class="box2">
+      <div class="project2">
+        <h2>FitHub</h2>
+        <h4>
+          ●Developed a responsive Tic Tac Toe game website using HTML, CSS, and
+          JavaScript.
+        </h4>
+        <h4>
+          ●Verified a responsive design, leading to a 30% increase in mobile
+          user engagement
+        </h4>
+        <h4>
+          ●Implemented smooth animations to contribute 20% improvement in the
+          overall gaming experience
+        </h4>
+        <h4>
+          ● Utilized CSS media queries for styling on both desktop and mobile
+          devices, resulting in a 25% increase in user experience
+        </h4>
+        <h4>● Tech Used- HTML, CSS, JavaScript</h4>
+      </div>
+      <div class="image">
+        <img src="fithub.png" alt="" />
+      </div>
+    </div>
+    <button class="btn">
+      <a href="/FitHub/index.html">See Project</a>
+    </button>
+  </body>
+</html>

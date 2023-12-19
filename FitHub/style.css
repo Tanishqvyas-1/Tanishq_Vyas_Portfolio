@@ -1,0 +1,112 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+    background-color: #AEC6CF;
+    color: black;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+
+.navbar li {
+    margin-left: 100px;
+    cursor: pointer;
+}
+.fh{
+    margin-left: 50px;
+}
+.topleft {
+    width: 50%;
+    height: 160px;
+}
+
+.topright {
+    width: 50%;
+    height: 50vh;
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+.section1{
+    max-height: 100vh;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+    background-color: #553D67;
+    color: white;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 70vw;
+    border-collapse: collapse;
+}
+.planh2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    text-align: left;
+    padding: 13px 0;
+}
+.section3 table td{
+   
+    border-bottom: 2px solid black;
+    text-align: left;
+}
+.box-btn{
+    
+    margin-top: 10px;
+    background-color: #AEC6CF;
+    color: black;
+    border-radius: 4px;
+    padding: 10 10px;
+    cursor: pointer;
+}
+.section3{
+    background-color: #AEC6CF;
+    color: black;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    background-color: #AEC6CF;
+    color: black;
+}
+.pricing{
+    padding: 20px;
+}
+.text1{
+    padding: 10px;
+}
+.maintexth{
+    margin-left: 300px;
+}
+.maintextp{
+    margin-left: 300px;
+}
